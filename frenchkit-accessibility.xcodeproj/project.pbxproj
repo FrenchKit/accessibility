@@ -14,6 +14,8 @@
 		781384711D88574900AD3740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7813846F1D88574900AD3740 /* LaunchScreen.storyboard */; };
 		7813847C1D88574A00AD3740 /* frenchkit_accessibilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7813847B1D88574A00AD3740 /* frenchkit_accessibilityTests.swift */; };
 		781384871D88574A00AD3740 /* frenchkit_accessibilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781384861D88574A00AD3740 /* frenchkit_accessibilityUITests.swift */; };
+		781384951D885A6B00AD3740 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781384941D885A6B00AD3740 /* DetailsViewController.swift */; };
+		78A74C391D8AEE97004B3DD7 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A74C381D8AEE97004B3DD7 /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		781384821D88574A00AD3740 /* frenchkit-accessibilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frenchkit-accessibilityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		781384861D88574A00AD3740 /* frenchkit_accessibilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frenchkit_accessibilityUITests.swift; sourceTree = "<group>"; };
 		781384881D88574A00AD3740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		781384941D885A6B00AD3740 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		78A74C381D8AEE97004B3DD7 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				7813846D1D88574900AD3740 /* Assets.xcassets */,
 				7813846F1D88574900AD3740 /* LaunchScreen.storyboard */,
 				781384721D88574900AD3740 /* Info.plist */,
+				781384941D885A6B00AD3740 /* DetailsViewController.swift */,
+				78A74C381D8AEE97004B3DD7 /* Place.swift */,
 			);
 			path = "frenchkit-accessibility";
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				781384691D88574900AD3740 /* ViewController.swift in Sources */,
 				781384671D88574900AD3740 /* AppDelegate.swift in Sources */,
+				781384951D885A6B00AD3740 /* DetailsViewController.swift in Sources */,
+				78A74C391D8AEE97004B3DD7 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				7813848D1D88574A00AD3740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7813848E1D88574A00AD3740 /* Build configuration list for PBXNativeTarget "frenchkit-accessibilityTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				781384901D88574A00AD3740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		781384911D88574A00AD3740 /* Build configuration list for PBXNativeTarget "frenchkit-accessibilityUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				781384931D88574A00AD3740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
